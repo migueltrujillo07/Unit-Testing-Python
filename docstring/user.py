@@ -11,5 +11,6 @@ class User:
         username (str): User's username
         password (str): user's password
         """
-
+        self.username = username
+        self.password = password
 
