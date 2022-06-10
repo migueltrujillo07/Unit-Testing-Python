@@ -9,16 +9,7 @@ def palindromo (sentence: str) -> bool:
     Returns:
         bool
     
-    examples:
-        >>> palindromo('Anita lava la tina')
-        True
-
-        >>> palindromo('CodigoFacilito')
-        False
-
-        >>> sentence = 'oso'
-        >>> palindromo(sentence)
-        False
+    
     """
 
     sentence = sentence.lower().replace(' ', '')
